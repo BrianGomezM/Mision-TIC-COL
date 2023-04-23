@@ -1,0 +1,9 @@
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Dominio\bin\Debug\netstandard2.0\vererinaria.App.Dominio.deps.json
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Dominio\bin\Debug\netstandard2.0\vererinaria.App.Dominio.dll
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Dominio\bin\Debug\netstandard2.0\vererinaria.App.Dominio.pdb
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Dominio\obj\Debug\netstandard2.0\vererinaria.App.Dominio.csprojAssemblyReference.cache
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Dominio\obj\Debug\netstandard2.0\vererinaria.App.Dominio.AssemblyInfoInputs.cache
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Dominio\obj\Debug\netstandard2.0\vererinaria.App.Dominio.AssemblyInfo.cs
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Dominio\obj\Debug\netstandard2.0\vererinaria.App.Dominio.csproj.CoreCompileInputs.cache
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Dominio\obj\Debug\netstandard2.0\vererinaria.App.Dominio.dll
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Dominio\obj\Debug\netstandard2.0\vererinaria.App.Dominio.pdb

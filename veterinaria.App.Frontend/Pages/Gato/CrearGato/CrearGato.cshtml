@@ -1,0 +1,89 @@
+﻿@page
+@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+@model veterinaria.App.Frontend.Pages.CrearGatoModel
+@{
+}
+<!-- bradcam_area_start -->
+    <div class="bradcam_area breadcam_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="bradcam_text text-center">
+                        <h3>Registrar Gato</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bradcam_area_end -->
+<!--================Blog Area =================-->
+    <section class="blog_area single-post-area section-padding">
+        <div class="container">
+            <div class="row contenedorformulario">
+                <div class="col-lg-12 posts-list">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="contact-title">Datos De La Mascota :@Model.Nuevogato.Nombre</h2>
+                        </div>
+                        <div class="col-lg-12">
+                            <form  method="post">                               
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" disabled="disabled" name="Codigo" id="Codigo" type="number"                                    
+                                                asp-for="Nuevogato.Id"
+                                                >
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="nombre" id="nombre" type="text"
+                                                onfocus="this.placeholder = ''"
+                                                onblur="this.placeholder = 'Nombre de la mascota'"
+                                                placeholder="Nombre de la mascota"
+                                                asp-for="Nuevogato.Nombre"
+                                                >
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="raza" id="raza" type="text"
+                                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Raza'"
+                                                placeholder="Raza"
+                                                asp-for="Nuevogato.Raza"
+                                                >
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="edad" id="edad" type="number"
+                                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Edad'"
+                                                placeholder="Edad"
+                                                asp-for="Nuevogato.Edad"
+                                                >
+                                        </div>
+                                    </div>                                    
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="color" id="color" type="text"
+                                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Color'"
+                                                placeholder="Color"
+                                                asp-for="Nuevogato.Color"                                                 
+                                                >
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="form-group sm-12" style="position: absolute !important; margin-left: 239px !important;">
+                                    <button type="submit"  class="button button-contactform boxed-btn">Crear</button>
+                                    <!-- <button type="submit" class="button button-contactForm boxed-btn">Actualizar</button>                      
+                                    <button type="submit" id="btnSubmit" value="Get Current Time" asp-page-handler="Submit" class="button button-contactForm boxed-btn">Cancelar</button>
+                                --></div>
+                            </form>                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--================ Blog Area end =================-->

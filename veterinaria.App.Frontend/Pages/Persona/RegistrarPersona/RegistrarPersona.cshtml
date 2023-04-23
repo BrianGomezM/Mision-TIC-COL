@@ -1,0 +1,80 @@
+﻿@page
+@model veterinaria.App.Frontend.Pages.RegistrarPersonaModel
+@{
+}
+<!-- bradcam_area_start -->
+    <div class="bradcam_area breadcam_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="bradcam_text text-center">
+                        <h3>Registrar Persona</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bradcam_area_end -->
+<section class="blog_area single-post-area section-padding">
+      <div class="container">
+         <div class="row contenedorformulario">
+            <div class="col-lg-12 posts-list">
+                <div class="row">
+                    <div class="col-lg-11">
+                        <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2 class="contact-title">Datos Del propietario</h2>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="telefono" id="telefono" type="number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Telefono'" placeholder="Telefono">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="nombreP" id="nombreP" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre y apellido'" placeholder="Nombre y apellido">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="direccion" id="direccion" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Dirección'" placeholder="Dirección">
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <div class="input-group-icon mt-10">
+                                            <div class="icon"><i class="fa fa-thermometer-full" aria-hidden="true"></i></div>
+                                            <div class="form-select" id="default-select">
+                                                <select>
+                                                    <option value="1">Tipo de consulta</option>
+                                                    <option value="2">Control</option>
+                                                    <option value="3">Urgencias</option>
+                                                    <option value="4">Vacunas</option>
+                                                    <option value="5">Desparacitación</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Motivos de la consulta'" placeholder=" Motivos de la consulta"></textarea>
+                                    </div>
+                                </div>                                
+                            </div>
+                            <div class="form-group sm-12" style="position: absolute !important; margin-left: 239px !important;">
+                                <button type="submit" class="button button-contactform boxed-btn">Crear</button>
+                                <button type="submit" class="button button-contactForm boxed-btn">Actualizar</button>                      
+                                <button type="submit" class="button button-contactForm boxed-btn">Cancelar</button>
+                            </div>
+                        </form>
+                    </div>                    
+                </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--================ Blog Area end =================-->

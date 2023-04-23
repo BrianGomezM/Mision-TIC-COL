@@ -1,0 +1,172 @@
+﻿@page
+@model veterinaria.App.Frontend.Pages.RegistrarHistoriaModel
+@{
+}
+<!-- header_start  -->
+
+  <!-- bradcam_area_start -->
+  <div class="bradcam_area breadcam_bg">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="bradcam_text text-center">
+                      <h3>Historia Clinica</h3>
+                   </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- bradcam_area_end -->
+
+   <!--================Blog Area =================-->
+   <section class="blog_area single-post-area section-padding">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-8 posts-list">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="contact-title">Datos De La Mascota</h2>
+                    </div>
+                    <div class="col-lg-11">
+                        <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="cod" id="cod" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Codigo de la mascota'" placeholder="Codigo de la mascota">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="nombreM" id="nombreM" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre de la mascota'" placeholder="Nombre de la mascota">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="raza" id="raza" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Raza'" placeholder="Raza">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="edad" id="edad" type="number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Edad'" placeholder="Edad">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="peso" id="peso" type="number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Peso'" placeholder="Peso">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="color" id="color" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Color'" placeholder="Color">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="sexo" id="sexo" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Sexo'" placeholder="Sexo">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="tamano" id="tamano" type="number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tamaño'" placeholder="Tamaño">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <h2 class="contact-title">Datos Del propietario</h2>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="telefono" id="telefono" type="number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Telefono'" placeholder="Telefono">
+                                    </div>
+                                </div>
+                                 <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="nombreP" id="nombreP" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre y apellido'" placeholder="Nombre y apellido">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="direccion" id="direccion" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Dirección'" placeholder="Dirección">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <div class="input-group-icon mt-10">
+                                            <div class="icon"><i class="fa fa-thermometer-full" aria-hidden="true"></i></div>
+                                            <div class="form-select" id="default-select">
+                                                <select>
+                                                    <option value="1">Tipo de consulta</option>
+                                                    <option value="2">Control</option>
+                                                    <option value="3">Urgencias</option>
+                                                    <option value="4">Vacunas</option>
+                                                    <option value="5">Desparacitación</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Motivos de la consulta'" placeholder=" Motivos de la consulta"></textarea>
+                                    </div>
+                                 </div>                               
+                            </div>
+                            <div class="form-group mt-3">
+                                <button type="submit" class="button button-contactForm boxed-btn">Actualizar</button>
+                                <button type="submit" class="button button-contactForm boxed-btn">Eliminar</button>                          
+                                <button type="submit" class="button button-contactForm boxed-btn">Cancelar</button>
+                            </div>
+                        </form>
+                    </div>                    
+                </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="blog_right_sidebar">
+                <div class="col-lg-12 offset-lg-1">
+                    <div class="media contact-info">                        
+                        <div class="media-body">
+                            <h4><i class="fa fa-heart"></i> Datos del veterinario.</h3> 
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-user"></i></span>
+                        <div class="media-body">
+                            <h3>Norma Liz Rojas.</h3>
+                            <p>CC 114368954</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                        <div class="media-body">
+                            <h3>320-548-9851</h3>
+                            <p>Lunes-Viernes</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-email"></i></span>
+                        <div class="media-body">
+                            <h3>rojas@gmail.com</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                  <aside class="single_sidebar_widget search_widget">
+                     <form action="#">
+                        <div class="form-group">
+                           <div class="input-group mb-3">
+                              <input type="text" class="form-control" placeholder='Buscar Historia Clinica'
+                                 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Keyword'">
+                              <div class="input-group-append">
+                                 <button class="btn" type="button"><i class="ti-search"></i></button>
+                              </div>
+                           </div>
+                        </div>
+                        <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                           type="submit">Buscar</button>
+                     </form>
+                  </aside>                                 
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--================ Blog Area end =================-->

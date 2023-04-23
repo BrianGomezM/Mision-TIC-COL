@@ -1,0 +1,12 @@
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Persistencia\obj\Debug\netstandard2.1\vererinaria.App.Persistencia.csprojAssemblyReference.cache
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Persistencia\obj\Debug\netstandard2.1\vererinaria.App.Persistencia.AssemblyInfoInputs.cache
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Persistencia\obj\Debug\netstandard2.1\vererinaria.App.Persistencia.AssemblyInfo.cs
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Persistencia\obj\Debug\netstandard2.1\vererinaria.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Persistencia\bin\Debug\netstandard2.1\vererinaria.App.Persistencia.deps.json
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Persistencia\bin\Debug\netstandard2.1\vererinaria.App.Persistencia.dll
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Persistencia\bin\Debug\netstandard2.1\vererinaria.App.Persistencia.pdb
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Persistencia\bin\Debug\netstandard2.1\vererinaria.App.Dominio.dll
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Persistencia\bin\Debug\netstandard2.1\vererinaria.App.Dominio.pdb
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Persistencia\obj\Debug\netstandard2.1\vererinaria.App.Persistencia.csproj.CopyComplete
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Persistencia\obj\Debug\netstandard2.1\vererinaria.App.Persistencia.dll
+D:\Programacion\C#\veterinaria.App\vererinaria.App.Persistencia\obj\Debug\netstandard2.1\vererinaria.App.Persistencia.pdb
